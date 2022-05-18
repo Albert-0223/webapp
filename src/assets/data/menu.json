@@ -1,0 +1,133 @@
+[
+  {
+    "id": 0,
+    "authName": "首页",
+    "icon": "el-icon-s-home",
+    "path": "mg/welcome",
+    "children": [
+      {
+        "id": 1,
+        "path": "mg/welcome",
+        "authName": "欢迎页",
+        "icon": "el-icon-house"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "authName": "用户管理",
+    "icon": "el-icon-s-custom",
+    "children": [
+      {
+        "id": 101,
+        "path": "mg/userManager/users",
+        "authName": "用户管理",
+        "icon": "el-icon-user"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "authName": "文章管理",
+    "icon": "el-icon-s-order",
+    "children": [
+      {
+        "id": 301,
+        "path": "mg/articleManager/article",
+        "authName": "文章管理",
+        "icon": "el-icon-files"
+      },     {
+        "id": 303,
+        "path": "mg/articleManager/archive",
+        "authName": "归档管理",
+        "icon": "el-icon-files"
+      },
+      {
+        "id": 302,
+        "path": "mg/articleManager/write",
+        "authName": "添加文章",
+        "icon": "el-icon-edit"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "authName": "标签管理",
+    "icon": "el-icon-s-promotion",
+    "children": [
+      {
+        "id": 401,
+        "path": "mg/tagManager/tag",
+        "authName": "标签管理",
+        "icon": "el-icon-price-tag"
+      }
+    ]
+  },  {
+    "id": 8,
+    "authName": "评论管理",
+    "icon": "el-icon-s-comment",
+    "children": [
+      {
+        "id": 401,
+        "path": "mg/commentManager/comment",
+        "authName": "评论管理",
+        "icon": "el-icon-chat-dot-square"
+      }
+    ]
+  },  {
+    "id": 9,
+    "authName": "留言公告",
+    "icon": "el-icon-message-solid",
+    "children": [
+      {
+        "id": 901,
+        "path": "mg/msgManager/message",
+        "authName": "留言管理",
+        "icon": "el-icon-chat-dot-square"
+      },   {
+        "id": 902,
+        "path": "mg/msgManager/notice",
+        "authName": "公告管理",
+        "icon": "el-icon-news"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "authName": "数据统计",
+    "icon": "el-icon-s-data",
+    "children": [
+      {
+        "id": 701,
+        "path": "mg/dataManager/sex",
+        "authName": "用户比例",
+        "icon": "el-icon-male"
+      },
+      {
+        "id": 702,
+        "path": "mg/dataManager/category",
+        "authName": "类别分析",
+        "icon": "el-icon-male"
+      },
+      {
+        "id": 703,
+        "path": "mg/dataManager/archive",
+        "authName": "归档分析",
+        "icon": "el-icon-male"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "authName": "网站设置",
+    "icon": "el-icon-s-tools",
+    "children": [
+      {
+        "id": 601,
+        "path": "mg/settings/setting",
+        "authName": "设置",
+        "icon": "el-icon-setting"
+      }
+    ]
+  }
+]
